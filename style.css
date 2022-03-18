@@ -1,0 +1,59 @@
+a {
+    display: inline-block;
+    font-size: 2em;
+    background-color: rgb(255, 38, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: all 10s ease 0s;
+     transition-property:background-color,border-radius ;
+    transition-duration: 0.8s, 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;*/
+    transition: 1ms;
+}
+
+a:hover {
+    background-color: rgb(209, 197, 236);
+    border-radius: 20px;
+    font-size: 2.1rem;
+    color: rgb(0, 255, 13);
+    border-radius: 50px;
+    
+    
+}
+
+.example{
+    width:  200px;
+    height: 200px;
+    border: 3px solid black;
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-bottom-color: red;
+    transform: rotate(45deg) translateX(100px) translateY(100px) ;
+   
+   
+}
+
+
+.example:hover {
+    transform: scale(1.2, 1.2);
+    margin-left: 40px;
+}
+
+
+
+.point{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}
+
+
+
+
